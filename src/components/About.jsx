@@ -1,5 +1,7 @@
+import React from 'react'
+
 export default function About() {
   return (
-    <div>voila!</div>
+    <h1>bbbb</h1>
   )
 }
