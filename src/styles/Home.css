@@ -1,0 +1,101 @@
+.Liens {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 142.6%;
+
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+}
+
+.LinkAccueil {
+  text-decoration: underline;
+  color: #FF6060;
+  margin-right: 50px;
+}
+
+.Linkabout {
+  text-decoration: none;
+  color: #FF6060;
+}
+
+nav img {
+  height: 50px;
+  margin-left: 50px;
+}
+
+.h1Home {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 142.6%;
+  text-align: center;
+  position: relative;
+  top: 181px;
+  color: #FFFFFF;
+}
+
+.img_Home {
+  border-radius: 25px;
+  display: block;
+  margin: auto;
+  opacity: 1;
+}
+
+.Blocorange1 {
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  background: #FF6060;
+  border-radius: 10px;
+  height: 340px;
+  width: 340px;
+  margin: 50px;
+}
+
+.TotalBloc {
+  display: flex;
+  justify-content: center;
+}
+
+.TotalBloc2 {
+  display: flex;
+  justify-content: center;
+}
+
+.titresBloc {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 142.6%;
+ 
+}
+
+.footer_text {
+  text-align: center;
+  color: white;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: center;
+
+}
+
+footer img {
+  margin: auto;
+  height: 30px;
+  display: block;
+}
+
+footer {
+  background-color: #000000;
+}

@@ -1,0 +1,43 @@
+.Number {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 288px;
+    line-height: 92.6%;
+    text-align: center;
+    color: #FF6060;
+
+}
+
+.titre_notFound {
+    position: absolute;
+    left: 20.49%;
+    right: 18.96%;
+    top: 59.18%;
+    bottom: 35.84%;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 142.6%;
+    color: #FF6060;
+}
+
+.text_p{
+    position: absolute;
+left: 44.14%;
+right: 40.14%;
+top: 81.93%;
+bottom: 15.53%;
+text-align: center;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 142.6%;
+display: flex;
+align-items: flex-end;
+text-decoration-line: underline;
+color: #FF6060;
+}
