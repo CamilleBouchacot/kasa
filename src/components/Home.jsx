@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import '../styles/Home.css'
+import '../styles/App.css'
 import img_Home from '../assets/img_Home.png'
 import Blocorange1 from '../assets/Blocorange1.png'
 import Logo_footer from '../assets/Logo_footer.png'

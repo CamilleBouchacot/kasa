@@ -1,6 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import '../styles/NotFound.css'
+import '../styles/App.css'
+<link rel="stylesheet" media="screen and (max-width: 767px)" href="../styles/NotFound.css" />
 
 export default function NotFound() {
   return (

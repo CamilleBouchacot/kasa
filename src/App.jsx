@@ -4,6 +4,7 @@ import About from './components/About'
 import Home from './components/Home'
 import NotFound from './components/NotFound'
 import './styles/Home.css'
+import './styles/App.css'
 import LOGO from './assets/LOGO.png';
 
 
