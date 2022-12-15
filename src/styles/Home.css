@@ -1,3 +1,7 @@
+html, body
+{
+     height: 99%
+}
 .Liens {
   font-family: 'Montserrat';
   font-style: normal;
@@ -75,7 +79,7 @@ nav img {
   font-weight: 500;
   font-size: 18px;
   line-height: 142.6%;
- 
+ position: relative; bottom: 117px;
 }
 
 .footer_text {
@@ -94,6 +98,7 @@ footer img {
   margin: auto;
   height: 30px;
   display: block;
+  position: relative ; top: 28px;
 }
 
 footer {
