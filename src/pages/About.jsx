@@ -1,7 +1,6 @@
 import React from 'react'
-import '../styles/About.css'
-import '../Styles/App.css'
-import Bannier_about from '../assets/Banniere_about.png'
+import '../Styles/main.css'
+import image from '../assets/banner.png'
 import Logo_footer from '../assets/Logo_footer.png'
 import { Link } from 'react-router-dom'
 
@@ -10,10 +9,11 @@ export default function About() {
     <>
       <body>
         <div>
-          <img className='img_About' src={Bannier_about} alt='img' />
+          <img className='img_About' src={image} alt='img' />
         </div>
+        <nav>
         <div className='About_bloc'>
-          <h4>Fiabilité</h4>
+          <h4>Fiabilité</h4> 
           <p>Les annonces postées sur Kasa garantissent une fiabilité totale. Les photos sont conformes aux logements,
             et toutes les informations sont régulièrement vérifiées  par nos équipes.</p>
         </div>
@@ -35,6 +35,7 @@ export default function About() {
             que les standards sont bien respectés.
             Nous organisons également des ateliers sur la sécurité domestique pour nos hôtes.</p>
         </div>
+        </nav>
       </body>
       <footer>
         <div className="Logo_footer">
@@ -47,5 +48,4 @@ export default function About() {
         </div>
       </footer>
     </>
-  )
-}
+)}

@@ -1,41 +1,34 @@
-import { useState } from 'react'
-import { Link, Route, Routes } from 'react-router-dom'
-import About from './components/About'
-import Home from './components/Home'
-import NotFound from './components/NotFound'
-import './styles/Home.css'
-import './styles/App.css'
-import LOGO from './assets/LOGO.png';
-
-
+import React from "react";
+import {
+  BrowserRouter as Router,
+  Route,
+  Routes,
+  Navigate,
+} from "react-router-dom";
+import "./index.css";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Singleproduct from "./pages/Singleproduct";
+import PageNotFound from "./pages/PageNotFound";
+import StyledNavbar from "./components/StyledNavbar";
+import Footer from "./components/Footer";
 
 function App() {
-  return (
-    <>
-      <header>
-        <nav>
-          <div className='navbar' >
-            <Link>
-              <img src={LOGO} alt='logo application' />
-            </Link>
-            <ul className='Liens'>
-              <Link className='LinkAccueil' to="/">Accueil</Link>
-              <Link className='Linkabout' to="/about">A propos</Link>
-            </ul>
-          </div>
-        </nav>
-      </header>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="*" element={<NotFound />} />
- 
-
-        <Route />
-      </Routes>
-
-    </>
-  )
+  return (    
+      <div className="App">       
+          <StyledNavbar />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="products/:productId" element={<Singleproduct />} />
+            <Route path="/kaza" element={<Navigate to="/" replace />} />
+            <Route path="*" element={<PageNotFound />} />
+          </Routes>
+          <Footer />      
+      </div>
+      
+      
+  );
 }
 
-export default App
+export default App;
