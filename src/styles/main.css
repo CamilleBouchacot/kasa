@@ -612,13 +612,6 @@ code {
   padding-top: 20px;
 }
 
-@media only screen and (min-width: 350px) {
-  .navbar {
-    margin: 2% 2%;
-    position: relative;
-    bottom: 186px;
-  }
-}
 
 @media only screen and (min-width: 768px) {
   .navbar {
@@ -626,13 +619,6 @@ code {
   }
 }
 
-@media only screen and (min-width: 992px) {
-  .navbar {
-    margin: 5% 5%;
-    position: relative;
-    bottom: 219px;
-  }
-}
 
 
 
@@ -672,8 +658,7 @@ code {
   .navbar__links {
     display: flex;
     justify-content: space-around;
-    position: relative;
-    left: 800px;
+ 
   }
 
   .Number {
@@ -712,9 +697,12 @@ code {
   }
 }
 
-@media only screen and (min-width: 350px) {
+@media only screen and (min-width: 350px) and (max-width: 992px) {
   .navbar__links--active {
     font-size: small;
+    position: relative;
+    left: 31px;
+    color: #FF6060;
   }
 }
 

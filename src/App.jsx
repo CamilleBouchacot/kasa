@@ -12,6 +12,7 @@ import Singleproduct from "./pages/Singleproduct";
 import PageNotFound from "./pages/PageNotFound";
 import StyledNavbar from "./components/StyledNavbar";
 import Footer from "./components/Footer";
+import Navbar from "./components/Navbar"
 
 function App() {
   return (    
