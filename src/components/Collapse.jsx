@@ -1,4 +1,6 @@
 import React from "react";
+import Vector from "../assets/Vector.png";
+import Vectordown from "../assets/Vectordown.png";
 
 const Collapse = ({ title, content }) => {
   const isCollapse = (e) => {
@@ -19,7 +21,10 @@ const Collapse = ({ title, content }) => {
       <button type="button" className="collapse__button" onClick={isCollapse}>
         {title}
 
-        <p className="collapse__arrow">&lt;</p>
+        <div className="collapse__arrow" onClick={isCollapse}>
+            <img src={Vector}/>
+          </div>
+
       </button>
       <div className="collapse__content">
         {Array.isArray(content) ? (

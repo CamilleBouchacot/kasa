@@ -1,16 +1,4 @@
-@media only screen and (min-width: 350px) 
-{
-
-.navbar__links {
-position: relative; left: 47px;
-}
-}
+.navbar__links{
 
 
-@media only screen and (min-width: 992px) 
-{
-
-.navbar__links {
-position: relative; right: 720px;
-}
 }
