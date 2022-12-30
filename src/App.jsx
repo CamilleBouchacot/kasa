@@ -5,7 +5,7 @@ import {
   Routes,
   Navigate,
 } from "react-router-dom";
-import "./index.css";
+import "./styles/main.css";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Singleproduct from "./pages/Singleproduct";
